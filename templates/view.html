@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>view</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class = "top-div">
+        <img src="../static/images/qis_banner.png" alt="Noimg">
+    </div>
+    <h1 style = "text-align: center;">VIEW FORM</h1>
+    <div class="view-div">
+        <table border="2">
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Phone</td>
+                    <td>Percentage</td>
+                    <td>Rank</td>
+                    <td>Course</td>
+                    <td>Address</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user  in output %}
+                    <tr>
+                        <td>{{user.id}}</td>
+                        <td>{{user.name}}</td>
+                        <td>{{user.email}}</td>
+                        <td>{{user.phone}}</td>
+                        <td>{{user.percentage}}</td>
+                        <td>{{user.rank}}</td>
+                        <td>{{user.course}}</td>
+                        <td>{{user.address}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+</body>
+</html>

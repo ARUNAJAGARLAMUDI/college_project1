@@ -1,0 +1,137 @@
+.top-div{
+    float: left;
+    width: 100%;
+}
+
+.top-div img{
+    float: left;
+    width: 100%;
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+    margin: 5% 0% 0% 8%;
+}
+
+.left-div img, .right-div img{
+    float: left;
+    width: 100%;
+}
+
+.right-div{
+    float: right;
+    width: 40%;
+    margin: 3% 1% 0% 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.right-div h1, .gallary-div h1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.gallary-div{
+    float: left;
+    width: 100%;
+}
+
+.gallary-div img{
+    float: left;
+    width: 20%;
+    height: 150px;
+}
+
+.middle-div{
+    float: left;
+    width: 100%;
+}
+
+.middle-left{
+    float: left;
+    width: 20%;
+    margin: 10% 0% 8% 20%;
+}
+
+.middle-left img{
+    float: left;
+    width: 100%;
+    height: 360px;
+    width: 285px;
+}
+
+.middle-right{
+    float: left;
+    width: 25%;
+    margin: 10% 0% 8% 18%;
+}
+
+.middle-right h1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bottom-div{
+    float: left;
+    width: 100%;
+    background-color: black;
+}
+
+.info-div, .form-div, .contact-div{
+    float: left;
+    width: 20%;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    margin: 1% 0% 1% 10%;
+    height: 180px;
+    text-align: center;
+}
+
+.form-div input, .form-div button, .form-div select{
+    float: left;
+    width: 90%;
+    margin: 2% 1% 2% 3%;
+    padding: 1% 0% 1% 0%;
+}
+
+.admissions-div{
+    float: left;
+    width: 35%;
+    border: 2px solid black;
+    margin: 8% 0% 0% 30%;
+    height: 120px;
+}
+
+.admissions-div h2{
+    float: left;
+    width: 40%;
+    border: 2px solid black;
+    margin: 4% 0% 2% 6%;
+    text-align: center;
+}
+
+.register_form-div, .update_form-div, .delete_form-div{
+    float: left;
+    width: 50%;
+    margin: 3% 0% 0% 25%;
+}
+
+.register_form-div input, .register_form-div button,.update_form-div input, .update_form-div button, .update_form-div select, .delete_form-div input, .delete_form-div button{
+    float: left;
+    width: 90%;
+    margin: 1% 0% 1% 5%;
+}
+
+.view-div{
+    float: left;
+    width: 60%;
+    margin: 3% 0% 0% 25%;
+}
